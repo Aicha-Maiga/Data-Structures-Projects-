@@ -1,25 +1,34 @@
 ﻿// Written by Aicha Maiga
 // 2/2/2025
 
-namespace TheDominionOfKings
+namespace TheDefenseOfConsolas
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            ScoreCalculator aScoreCalculator = new ScoreCalculator();
 
-            Console.WriteLine("Enter the number of estate: ");
-            aScoreCalculator.Estate =Convert.ToInt32(Console.ReadLine());
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Black;
 
-            Console.WriteLine("Enter the number of duchy: ");
-            aScoreCalculator.Duchy = Convert.ToInt32(Console.ReadLine());
+            Console.Title = "Defense of Consolas";
 
-            Console.WriteLine("Enter the number of province: ");
-            aScoreCalculator.Province = Convert.ToInt32(Console.ReadLine());
 
-            //Console.WriteLine("Total Score:" + aScoreCalculator.CalcTotalScore());
-            Console.WriteLine(aScoreCalculator.ToString());
+            SquadDeployment aSquadDeployment = new SquadDeployment();
+
+
+            Console.WriteLine(" Target Row?");
+            aSquadDeployment.Row = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(" Target Column?");
+            aSquadDeployment.Column = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine($"({aSquadDeployment.Row}, {aSquadDeployment.Column - 1})");
+            Console.WriteLine($"({aSquadDeployment.Row -1}, {aSquadDeployment.Column})");
+            Console.WriteLine($"({aSquadDeployment.Row}, {aSquadDeployment.Column + 1})");
+            Console.WriteLine($"({aSquadDeployment.Row +1}, {aSquadDeployment.Column})");
+          
+            Console.Beep();
         }
     }
 }
