@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ERC\\source\\repos\\QuizCalculatorSpring2025\\QuizCalculatorSpring2025.csproj",
-      "projectName": "QuizCalculatorSpring2025",
-      "projectPath": "C:\\Users\\ERC\\source\\repos\\QuizCalculatorSpring2025\\QuizCalculatorSpring2025.csproj",
+      "projectUniqueName": "C:\\Users\\ERC\\source\\repos\\TheFourSisters&TheDuckbear\\TheFourSisters&TheDuckbear.csproj",
+      "projectName": "TheFourSisters&TheDuckbear",
+      "projectPath": "C:\\Users\\ERC\\source\\repos\\TheFourSisters&TheDuckbear\\TheFourSisters&TheDuckbear.csproj",
       "packagesPath": "C:\\Users\\ERC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ERC\\source\\repos\\QuizCalculatorSpring2025\\obj\\",
+      "outputPath": "C:\\Users\\ERC\\source\\repos\\TheFourSisters&TheDuckbear\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

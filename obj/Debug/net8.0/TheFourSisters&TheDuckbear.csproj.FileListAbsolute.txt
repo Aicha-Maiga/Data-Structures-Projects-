@@ -1,0 +1,14 @@
+C:\Users\ERC\source\repos\TheFourSisters&TheDuckbear\bin\Debug\net8.0\TheFourSisters&TheDuckbear.exe
+C:\Users\ERC\source\repos\TheFourSisters&TheDuckbear\bin\Debug\net8.0\TheFourSisters&TheDuckbear.deps.json
+C:\Users\ERC\source\repos\TheFourSisters&TheDuckbear\bin\Debug\net8.0\TheFourSisters&TheDuckbear.runtimeconfig.json
+C:\Users\ERC\source\repos\TheFourSisters&TheDuckbear\bin\Debug\net8.0\TheFourSisters&TheDuckbear.dll
+C:\Users\ERC\source\repos\TheFourSisters&TheDuckbear\bin\Debug\net8.0\TheFourSisters&TheDuckbear.pdb
+C:\Users\ERC\source\repos\TheFourSisters&TheDuckbear\obj\Debug\net8.0\TheFourSisters&TheDuckbear.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ERC\source\repos\TheFourSisters&TheDuckbear\obj\Debug\net8.0\TheFourSisters&TheDuckbear.AssemblyInfoInputs.cache
+C:\Users\ERC\source\repos\TheFourSisters&TheDuckbear\obj\Debug\net8.0\TheFourSisters&TheDuckbear.AssemblyInfo.cs
+C:\Users\ERC\source\repos\TheFourSisters&TheDuckbear\obj\Debug\net8.0\TheFourSisters&TheDuckbear.csproj.CoreCompileInputs.cache
+C:\Users\ERC\source\repos\TheFourSisters&TheDuckbear\obj\Debug\net8.0\TheFourSisters&TheDuckbear.dll
+C:\Users\ERC\source\repos\TheFourSisters&TheDuckbear\obj\Debug\net8.0\refint\TheFourSisters&TheDuckbear.dll
+C:\Users\ERC\source\repos\TheFourSisters&TheDuckbear\obj\Debug\net8.0\TheFourSisters&TheDuckbear.pdb
+C:\Users\ERC\source\repos\TheFourSisters&TheDuckbear\obj\Debug\net8.0\TheFourSisters&TheDuckbear.genruntimeconfig.cache
+C:\Users\ERC\source\repos\TheFourSisters&TheDuckbear\obj\Debug\net8.0\ref\TheFourSisters&TheDuckbear.dll

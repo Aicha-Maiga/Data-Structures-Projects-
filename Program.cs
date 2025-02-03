@@ -1,24 +1,21 @@
-﻿//Written by Aicha Maiga 
-//01/27/2025
+﻿// Written by Aicha Maiga
+// 2/2/2025
 
-namespace QuizCalculatorSpring2025
+namespace TheFourSisters_TheDuckbear
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            QuizCalculator aQuizCalculator = new QuizCalculator();
+            EggSharingCalculator anEggSharingCalculator = new EggSharingCalculator();
 
-            aQuizCalculator.Quiz1 = 80.0;
-            aQuizCalculator.Quiz2 = 85.0;
-            aQuizCalculator.Quiz3 = 90.0;
-            aQuizCalculator.Quiz4 = 85.0;
+            Console.WriteLine("Enter the number of chocolate egg gathered today: ");
+            anEggSharingCalculator.NumberofEggs = Convert.ToInt32(Console.ReadLine());
 
 
+            Console.WriteLine("Sisters share:" +anEggSharingCalculator.CalcSisterShare());
+            Console.WriteLine("Duck share:" + anEggSharingCalculator.CalcDuckShare());
 
-            Console.WriteLine("Total: " + aQuizCalculator.CalcTotal());
-            Console.WriteLine("Average: " + aQuizCalculator.CalcAverage());
-            Console.WriteLine("Letter Grade: " + aQuizCalculator.CalcLetterGrade());
         }
     }
 }
