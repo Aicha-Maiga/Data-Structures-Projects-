@@ -1,28 +1,21 @@
 ﻿// Written by Aicha Maiga
-// 2/1/2025
+// 2/2/2025
 
-namespace TheTriangleFarmer
+namespace TheFourSisters_TheDuckbear
 {
     public class Program
     {
         public static void Main(string[] args)
-        { 
-            AreaCalculator anAreaCalculator = new AreaCalculator();
+        {
+            EggSharingCalculator anEggSharingCalculator = new EggSharingCalculator();
 
-            //anAreaCalculator.BaseLength = 20.0;
-            //anAreaCalculator.Height = 10.0;
+            Console.WriteLine("Enter the number of chocolate egg gathered today: ");
+            anEggSharingCalculator.NumberofEggs = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Enter Height:");
-            anAreaCalculator.Height = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Enter Base:");
-            anAreaCalculator.BaseLength = Convert.ToDouble(Console.ReadLine());
-
-            //Console.WriteLine("Height: " + anAreaCalculator.Height);
-            //Console.WriteLine("Base: " + anAreaCalculator.BaseLength);
-            Console.WriteLine("Area: " + anAreaCalculator.CalcArea());
+            Console.WriteLine("Sisters share:" +anEggSharingCalculator.CalcSisterShare());
+            Console.WriteLine("Duck share:" + anEggSharingCalculator.CalcDuckShare());
 
         }
     }
 }
- 
