@@ -1,19 +1,10 @@
-﻿// Wrtitten by Aicha Maiga
-// 2/2/2025
-
-
-namespace RepairingTheClockTower
+﻿namespace HW5ShapesandAreas
 {
-    public class Program
+    internal class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            ClockRepair aClockRepair = new ClockRepair();
-
-            Console.WriteLine("Enter a number:");
-            aClockRepair.Number = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine(aClockRepair.ClockSound());
+            Console.WriteLine("Hello, World!");
         }
     }
 }
